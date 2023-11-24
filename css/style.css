@@ -484,7 +484,6 @@ header .container::after{
 }
 .video img{
     height: 510px;
-    width: 100%;
 }
 .video .text p{
     margin-top: 10px;

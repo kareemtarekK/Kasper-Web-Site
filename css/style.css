@@ -1038,8 +1038,8 @@ align-items: center;
     font-weight: 500;
 }
 .footer .container p:not(.special){
-    width: fit-content;
-    padding: 10px 100px;
+    width: 150px;
+    padding: 10px 10px;
     font-weight: normal;
     margin: 25px auto 0;
     border-bottom: 1.5px solid #777;
@@ -1082,5 +1082,11 @@ align-items: center;
 .footer .instagram:hover{
     background-color: rgb(47, 5, 5);
     color: white;
+}
+@media(max-width:768px){
+    .footer .container .social-icons i{
+        font-size: 19px;
+        padding: 5px;
+    }
 }
 /* end footer */

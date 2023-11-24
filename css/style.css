@@ -482,8 +482,8 @@ header .container::after{
 .video .text h2{
     margin-bottom: 10px;
 }
-.video video{
-    height: 300px;
+.video img{
+    height: 500px;
     width: 100%;
 }
 .video .text p{
@@ -1038,8 +1038,11 @@ align-items: center;
     font-weight: 500;
 }
 .footer .container p:not(.special){
-    margin-top: 25px;
+    width: fit-content;
+    padding: 10px 100px;
     font-weight: normal;
+    margin: 25px auto 0;
+    border-bottom: 1.5px solid #777;
 }
 .footer .container .social-icons i{
     margin-left: 15px;
